@@ -30,6 +30,23 @@ This version uses Fuse.js for speed, transparency, and a more scalable path to r
 
 ## Screenshots
 
+### Current Behavior
+
+<p align="center">
+   <img src="assets/images/pickle-1.PNG" width="300" height="500" alt="Alt Text">
+   <img src="assets/images/pickle-2.PNG" width="300" height="500" alt="Alt Text">
+   <img src="assets/images/pickle-3.PNG" width="300" height="500" alt="Alt Text">
+</p>
+
+### Demo
+
+<p align="center">
+   <img src="assets/images/demo-1.PNG" width="300" height="500" alt="Alt Text">
+   <img src="assets/images/demo-2.PNG" width="300" height="500" alt="Alt Text">
+   <img src="assets/images/demo-3.PNG" width="300" height="500" alt="Alt Text">
+</p>
+
+[Watch Video Demo](assets/videos/pickle-search-demo.MP4)
 
 ## Notes
   This is a concept demo. It's not hooked up to a backend and built using static data. 
