@@ -1,20 +1,16 @@
-# Welcome to your Expo app 👋
+# 🥒 Pickle Search Demo
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a lightweight React Native demo exploring how fuzzy search can be used to match users to clothing items. The app allows users to search a list of mock fashion items with brand, color, and style tags. Results are matched using Fuse.js to enable intuitive, typo friendly discovery.
 
 ## Get started
 
-1. Install dependencies
-
    ```bash
-   npm install
+      git clone https://github.com/J-Walters/pickle-search-demo
+      cd pickle-search-demo
+      npm install
+      npx expo start
    ```
 
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
 
 In the output, you'll find options to open the app in a
 
@@ -23,28 +19,19 @@ In the output, you'll find options to open the app in a
 - [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
 - [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+## Why Fuse.js?
 
-When you're ready, run:
+This version uses Fuse.js for speed, transparency, and a more scalable path to real-world implementation. It handles:
+- Partial matches
+- Misspellings
+- Ranking results by relevance
 
-```bash
-npm run reset-project
-```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Screenshots
 
-## Learn more
 
-To learn more about developing your project with Expo, look at the following resources:
+## Notes
+  This is a concept demo. It's not hooked up to a backend and built using static data. 
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
